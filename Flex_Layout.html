@@ -1,0 +1,93 @@
+<!doctype html>
+<title>Example</title>
+<style>
+  * {
+    box-sizing: border-box; 
+  }
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+    margin: 0;
+  }
+  .outer-col-1 {
+    background: black;
+    color: #128C7E;
+    font-size: larger;
+    flex: 1;
+  }
+  .outer-col-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+  }
+  .inner-row {
+    display: flex;
+    flex-direction: row;
+    
+  }
+  .inner-col {
+    flex: 4;
+    flex-direction: row;
+    background-color: black;
+    border-style: solid;
+    border-color: #128C7E;
+    border-width: 4px;
+  }
+  
+  .inner-row aside {
+    background: black;
+    color: #128C7E;
+    font-size: larger;
+    flex: 1;
+    flex: 1;
+  }
+  
+  header, footer {
+    background: #1DB954;
+    height: 20vh;
+  }
+
+  .inner-col p,h3{
+      color: #128C7E;
+      font-family: Tahoma, Verdana, Segoe, sans-serif;
+  }
+  header,footer{
+      text-align: center;
+      font-weight: bold;
+      font-size: 63px;
+      padding: 26px;    
+  }
+    nav, aside {
+    padding: 1em;
+  } 
+</style>
+<body>
+  <nav class="outer-col-1">Navigation Bar</nav>
+  <div class="outer-col-2">
+  	<header>Header -News Articles</header>
+    <div class="inner-row">
+      <div class="inner-col">
+            <div class="c1">
+                <h3>Article 1</h3>
+                <p>The RBI tracks retail inflation, which is measured by Consumer Price Index, for deciding the rate of interest during MPC's monetary policy deliberations.
+                    Fuel and power prices rose 26.09% in August year-on-year compared with 26.02% in July, while manufactured product prices rose 11.39% compared with 11.20% in the previous month.
+                    However, wholesale prices of food rose at a slower pace of 3.43% in August on-year compared to 4.46% in the previous month.</p>
+            </div>
+            <div class="c2">
+                <h3>Article 2</h3>
+                <p>The introduction of the external benchmark system for lending and deposit rates has helped in improving the monetary transmission by banks, an RBI article said on Thursday. The share of outstanding loans linked to external benchmarks has increased from as low as 2.4 per cent during September 2019 to 28.5 per cent during March 2021, said the article prepared by RBI officials.
+                    "Over the years, the Reserve Bank's efforts in improving transmission to deposit and lending rates of banks have.</p>
+            </div>
+            <div class="c3">
+                <h3>Article 3</h3>
+                <p>10 Best Books for Investors!
+                    Investing can sometimes be very binary. If you want good long-term returns then you invest in equities. On the other hand, if you want to safeguard your portfolio and protect it from downside risk then you invest in debt.
+                    These books are a treasure trove of knowledge and information. Whether you are a voracious reader or not, here is a list of 10 books that you must read as an investor.</p>
+            </div>
+  		<footer>Footer</footer>
+      </div>
+    	<aside>Side bar</aside>
+    </div>
+  </div>
+</body>
